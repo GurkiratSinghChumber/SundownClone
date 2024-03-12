@@ -85,7 +85,7 @@ function menuAnimation() {
         flag = 1;
       } else {
         // Hide full screen menu
-        full_scr.style.top = "-100%";
+        full_scr.style.top = "-100vh";
         navImg.style.opacity = 1;
         link_divs.forEach((link_div) => {
           link_div.style.opacity = 0;
