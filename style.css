@@ -17,7 +17,7 @@ html, body{
 #main{
     position: relative;
     overflow-x:auto;
-    z-index: 10;
+    z-index: 5;
 }
 
 /* Loader Styles */
@@ -87,7 +87,7 @@ html, body{
     background-color: #EFEAE3;
     position: relative;
     padding: 2vw 2vw;
-    z-index: 10;
+    z-index: 100;
 
 }
 
@@ -452,6 +452,7 @@ nav #menu {
     background-color: #EFEAE3;
     padding-top: 8vw;
     position: relative;
+    z-index: 50;
     
 }
 #page3_heading{
@@ -545,9 +546,11 @@ nav #menu {
 /* Styling section 4 of the landing page */
 #page4{
     min-height: 100vh;
+    position: relative;
     background-color: #EFEAE3;
     width: 100vw;
     padding: 6vw 3vw;
+    z-index: 100;
 }
 
 #page4 h4{
@@ -663,6 +666,8 @@ nav #menu {
     height: 100vh;
     background-color: #EFEAE3;
     padding: 8vw 2vw;
+    position: relative;
+    z-index: 100;
 }
 
 .swiper {
@@ -700,7 +705,7 @@ nav #menu {
     background-color: transparent;
     pointer-events: none;
     position:absolute;
-    z-index: 0;
+    z-index: 100;
 }
 
 
